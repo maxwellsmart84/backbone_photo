@@ -5,7 +5,8 @@ module.exports = Backbone.Model.extend ({
   urlRoot: 'http://tiny-tiny.herokuapp.com/collections/maxsbb',
   idAttribute: '_id',
   defaults: {
-    votes: 0,
-    picture: "No picture uploaded",
+    likes: 0,
+    picture: "http://reactionimage.org/img/gallery/704257793.jpg",
+    title: "No Title Yet"
   }
 });
