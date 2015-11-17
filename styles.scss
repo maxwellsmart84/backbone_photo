@@ -1,10 +1,65 @@
+body {
+  background-color: black;
+}
+
+.jumbotron {
+  background-color: transparent;
+  border: double 20px rgba(252, 255, 98, 0.67);
+  text-align: center;
+  font-family: "Orbitron";
+  color:rgba(242, 102, 224, 0.86);
+  text-shadow: 1px 1px 1px rgb(252, 252, 252),
+               3px 3px 3px white,
+               5px 5px 5px yellow,
+               8px 8px 8px white,
+               12px 12px 12px yellow;
+}
+
+.btn-primary {
+  background-color: #dd77d2;
+  border-color: #dd77d2;
+}
+
+#submitForm {
+  margin-left: 8%;
+}
+
+// #submitForm {
+//   background-color: rgba(247, 0, 171);
+// }
+
+form {
+  margin-left: 43%;
+  label {
+    color:rgba(255, 255, 255, 0.93);
+    font-family: "Exo";
+  }
+  button {
+    padding: 10px;
+    background-color: #dd77d20;
+    border-color: #dd77d20;
+  }
+}
+
 li {
   list-style: none;
 }
 
 #dataStuff {
   display:inline-block;
+  margin-top: 5%;
   img {
-    width:20%;
+    width:100%;
+  }
+  h1 {
+    text-align: center;
+    font-family: "Exo";
+    color:rgba(255, 255, 255, 0.93);
+    border-bottom: 1px solid white;
+  }
+  button{
+    margin-left: 43%;
+    color:rgb(0, 0, 0);
+    background-color: rgba(247, 0, 171, 0.76);
   }
 }
